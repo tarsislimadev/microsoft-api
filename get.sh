@@ -6,4 +6,4 @@ path="${1}"
 
 queries="${2}"
 
-curl -sL -X GET -H "Authorization: ${Authorization}" "https://graph.microsoft.com/v1.0/${path}?${queries}"
+curl -sL -X GET -H "Authorization: ${API_KEY}" "https://graph.microsoft.com/v1.0/${path}?${queries}"

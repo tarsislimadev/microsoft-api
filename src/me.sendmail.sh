@@ -10,7 +10,7 @@ to="${1}"
 
 subject="${2}"
 
-echo "Content: "
+echo "Write a content: "
 
 read content
 
